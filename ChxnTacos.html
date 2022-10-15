@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chxn Foods</title>
+</head>
+<body>
+    <header>
+        <h1>Chxn Foods, since 1997</h1>
+    </header>
+
+    <img src="./Chxnfood.png" alt="Chxn Foods"/>
+
+    <section>
+        <h2>Menú</h2>
+        <h3>Tacos</h3>
+        <p>Todos incluyen nopales y cebollas</p>
+        <ul>
+            <li>Bistec.......................$3.50</li>
+            <li>Chorizo......................$5.50</li>
+            <li>Chuleta......................$2.50</li>
+            <li>Pastor...................... $4.50</li>
+            <li>Campechanos..................$5.50</li>
+        </ul>
+
+        <h3>Hamburguesas</h3>
+        <p>Todas incluyen porción de papas a la francesa</p>
+        <ul>
+            <li>Normal.......................$2.50</li>
+            <li>Sencilla.....................$3.00</li>
+            <li>Mixta........................$2.50</li>
+            <li>Doble........................$4.50</li>
+            <li>Triple.......................$5.50</li>
+        </ul>
+
+        <h3>Especiales</h3>
+        <p>Combo con refresco por $1 más</p>
+        <dl>
+            <dt><b>Labrador</b>......................$5</dt>
+                <dd>- Tortilla de maíz con pollo asado</dd>
+            <dt><b>Pastor Alemán</b>.................$5</dt>
+                <dd>- Tortilla de harina con carne de res y queso</dd>
+            <dt><b>Labrador</b>......................$5</dt>
+                <dd>- Tortilla de maíz con chuleta</dd>
+            <dt><b>Adoptado</b>......................$5</dt>
+                <dd>- Tortilla de maíz con pastor</dd>
+        </dl>
+    </section>
+    <hr>
+    <section>
+    <h2>Ubicación</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/1eNeRrGw6FuEWrzp7" target="_blank">Av. 17 calles 31 y 33</a></td>
+                <td>L - D 24H</td>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/qzbFBb257Mx3kFn87" target="_blank">Malecón de La Libertad</a></td>
+                <td>L - D 5pm - 3am</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/XpSk8TZp8MwmQbHy7" target="_blank">Sector La Rinconada</a></td>
+                <td>M - D 5pm - 3am</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section>
+    <h2>Pedidos</h2>
+    <h3>Haz tu pedido aquí</h3>
+
+    <form action="">
+    <p>¿De qué sucursal quieres?</p>
+    <select name="" id="">
+        <option value="Norte">Norte</option>
+        <option value="Centro">Centro</option>
+        <option value="Sur">Sur</option>
+    </select>
+    <p>¿Qué comida quieres?</p>
+    <input type="checkbox" name="Bistec" id="Bistec" value="Bistec">
+    <label for="Bistec">Bistec</label>
+    <input type="number" placeholder="¿Cuántos?" id="BistecNumber" name="BistecNumber">
+    
+    <br>
+    <input type="checkbox" name="Chorizo" id="Chorizo" value="Chorizo">
+    <label for="Chorizo">Chorizo</label>
+    <input type="number" placeholder="¿Cuántos?" id="ChorizoNumber" name="ChorizoNumber">
+
+    <br>
+    <input type="checkbox" name="Pastor" id="Pastor" value="Pastor">
+    <label for="Pastor">Pastor</label>
+    <input type="number" placeholder="¿Cuántos?" id="PastorNumber" name="PastorNumber">
+
+    <br>
+    <input type="checkbox" name="Chuleta" id="Chuleta" value="Chuleta">
+    <label for="Chuleta">Chuleta</label>
+    <input type="number" placeholder="¿Cuántos?" id="ChuletaNumber" name="ChuletaNumber">
+
+    <br>
+    <input type="checkbox" name="Campechanos" id="Campechanos" value="Campechanos">
+    <label for="Campechanos">Campechanos</label>
+    <input type="number" placeholder="¿Cuántos?" id="CampechanosNumber" name="CampechanosNumber">
+    
+    <br>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" name="nombre" id="nombre" placeholder="¿Cómo te llamas?">
+    
+    <br>
+    <label for="celular">Celular:</label><br>
+    <input type="number" name="celular" id="celular" placeholder="¿A qué número te llamamos?">
+
+    <br>
+    <label for="direccion">Dirección:</label><br>
+    <input type="text" name="direccion" id="direccion" placeholder="¿A dónde te lo llevamos?">
+    
+    <br>
+    <button type="submit">¡Haz tu pedido!</button>
+    </form>    
+</section>
+</body>
+</html>
